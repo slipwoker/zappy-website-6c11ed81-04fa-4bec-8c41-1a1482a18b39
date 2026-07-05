@@ -7,41 +7,41 @@
 ## Pages
 
 ### בית
-https://example.com
+https://dtspeakers.zappy5.app
 הופכים כל אירוע לחוויה בלתי נשכחת עם ציוד הגברה ותאורה מתקדם. מתמחים באווירה סוחפת ואנרגיה גבוהה למסיבות פרטיות ואירועים עסקיים. צרו קשר עוד היום!
 
 ### שירותים
-https://example.com/services
+https://dtspeakers.zappy5.app/services
 מערכות הגברה עוצמתיות, תאורה חכמה ואפקטים ויזואליים מרהיבים – כל מה שצריך כדי להפוך את המסיבה שלכם לחוויה סוחפת. גלו את חבילות השירות המותאמות אישית שלנו.
 
 ### אודות
-https://example.com/about
+https://dtspeakers.zappy5.app/about
 צוות DTSpeakers מביא ניסיון עשיר ותשוקה אמיתית להפקת אירועים. אנחנו משלבים טכנולוגיה מתקדמת עם יצירתיות כדי לייצר אווירה מושלמת. הכירו את האנשים שמאחורי הקלעים.
 
 ### גלריה
-https://example.com/gallery
+https://dtspeakers.zappy5.app/gallery
 גללו בין רגעי השיא של אירועים שהפקנו – תאורה דרמטית, סאונד מושלם ורחבת ריקודים סוערת. קבלו השראה לאירוע שלכם ותראו איך אנחנו הופכים חלומות למציאות.
 
 ### צור קשר
-https://example.com/contact
+https://dtspeakers.zappy5.app/contact
 מוכנים להפוך את האירוע שלכם לבלתי נשכח? השאירו פרטים ונחזור אליכם עם הצעת מחיר מותאמת אישית לצרכי ההגברה והתאורה שלכם. ההפקה המושלמת מתחילה כאן.
 
 ### תודה - DTSpeakers
-https://example.com/thank-you
+https://dtspeakers.zappy5.app/thank-you
 DTSpeakers - תודה - DTSpeakers
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://dtspeakers.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://dtspeakers.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://dtspeakers.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -54,8 +54,8 @@ Information about WCAG compliance and accessibility features.
 - Address: בכל מקום שרק תרצו
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://dtspeakers.zappy5.app/contact
+- Endpoint: https://dtspeakers.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -85,6 +85,6 @@ Event Audio & Lighting
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://dtspeakers.zappy5.app/sitemap.xml
+- Robots: https://dtspeakers.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dtspeakers.zappy5.app/llms-full.txt
