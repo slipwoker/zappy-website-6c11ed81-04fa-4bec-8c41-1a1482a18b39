@@ -1,0 +1,87 @@
+# DTSpeakers — Generative Engine Optimization Map
+
+> DTSpeakers is an audio and lighting company specializing in parties and events. They provide sound amplification and lighting setups to create an immersive atmosphere at events. The brand is focused on delivering high-energy, professional-grade experiences that make events memorable. Their website needs to showcase their full range of offerings and convert visitors into paying clients.
+
+---
+
+## Pages
+
+### בית
+https://dtspeakers-6c11ed81.zappy5.app
+הופכים כל אירוע לחוויה בלתי נשכחת עם ציוד הגברה ותאורה מתקדם. מתמחים באווירה סוחפת ואנרגיה גבוהה למסיבות פרטיות ואירועים עסקיים. צרו קשר עוד היום!
+
+### שירותים
+https://dtspeakers-6c11ed81.zappy5.app/services
+מערכות הגברה עוצמתיות, תאורה חכמה ואפקטים ויזואליים מרהיבים – כל מה שצריך כדי להפוך את המסיבה שלכם לחוויה סוחפת. גלו את חבילות השירות המותאמות אישית שלנו.
+
+### אודות
+https://dtspeakers-6c11ed81.zappy5.app/about
+צוות DTSpeakers מביא ניסיון עשיר ותשוקה אמיתית להפקת אירועים. אנחנו משלבים טכנולוגיה מתקדמת עם יצירתיות כדי לייצר אווירה מושלמת. הכירו את האנשים שמאחורי הקלעים.
+
+### גלריה
+https://dtspeakers-6c11ed81.zappy5.app/gallery
+גללו בין רגעי השיא של אירועים שהפקנו – תאורה דרמטית, סאונד מושלם ורחבת ריקודים סוערת. קבלו השראה לאירוע שלכם ותראו איך אנחנו הופכים חלומות למציאות.
+
+### צור קשר
+https://dtspeakers-6c11ed81.zappy5.app/contact
+מוכנים להפוך את האירוע שלכם לבלתי נשכח? השאירו פרטים ונחזור אליכם עם הצעת מחיר מותאמת אישית לצרכי ההגברה והתאורה שלכם. ההפקה המושלמת מתחילה כאן.
+
+### תודה - DTSpeakers
+https://dtspeakers-6c11ed81.zappy5.app/thank-you
+DTSpeakers - תודה - DTSpeakers
+
+## Legal & Policy
+
+### Privacy Policy
+https://dtspeakers-6c11ed81.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://dtspeakers-6c11ed81.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://dtspeakers-6c11ed81.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://dtspeakers-6c11ed81.zappy5.app/contact
+- Endpoint: https://dtspeakers-6c11ed81.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About DTSpeakers
+DTSpeakers is an audio and lighting company specializing in parties and events. They provide sound amplification and lighting setups to create an immersive atmosphere at events. The brand is focused on delivering high-energy, professional-grade experiences that make events memorable. Their website needs to showcase their full range of offerings and convert visitors into paying clients.
+
+## Target Audience
+- אנשים המחפשים שירותי הגברה ותאורה לאירועים ומסיבות
+- מתכנני אירועים
+- מארגני אירועים עסקיים
+- צעירים
+
+## Industry
+Event Audio & Lighting
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://dtspeakers-6c11ed81.zappy5.app/sitemap.xml
+- Robots: https://dtspeakers-6c11ed81.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dtspeakers-6c11ed81.zappy5.app/llms-full.txt
