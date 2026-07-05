@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972546885039" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972546885039';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -852,7 +852,7 @@
   </div>
   <div class="services-page-intro-section__divider-wrapper" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,20 Q150,45 300,30 T600,35 Q750,40 900,25 T1200,30 L1200,80 Z" fill="#FAF5EE"/>
+      <path d="M0,80 L0,20 Q150,45 300,30 T600,35 Q750,40 900,25 T1200,30 L1200,80 Z" fill="#FAF5EE"></path>
     </svg>
   </div>
 </section>
@@ -863,7 +863,7 @@
       <h2 class="services-service-menu-title">השירותים שלנו</h2>
       <div class="services-service-menu-accent">
         <svg data-element-type="icon" data-icon-type="svg" aria-hidden="true" width="60" height="6" viewBox="0 0 60 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 3 Q15 0 30 3 T60 3" stroke="var(--primary)" stroke-width="2" fill="none"/>
+          <path d="M0 3 Q15 0 30 3 T60 3" stroke="var(--primary)" stroke-width="2" fill="none"></path>
         </svg>
       </div>
       <p class="services-service-menu-subtitle">מהגברה מקצועית ועד תאורה אווירתית – אנחנו דואגים שכל אירוע יישמע וייראה מושלם. בחרו את השירות שמתאים לכם וקבלו ייעוץ אישי ללא התחייבות.</p>
@@ -872,9 +872,9 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4C12.6863 4 10 6.68629 10 10V14H8C6.89543 14 6 14.8954 6 16V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26V16C26 14.8954 25.1046 14 24 14H22V10C22 6.68629 19.3137 4 16 4ZM20 14H12V10C12 7.79086 13.7909 6 16 6C18.2091 6 20 7.79086 20 10V14Z" fill="var(--primary)"/>
-            <circle cx="16" cy="21" r="2" fill="var(--primary)"/>
-            <path d="M16 23V25" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M16 4C12.6863 4 10 6.68629 10 10V14H8C6.89543 14 6 14.8954 6 16V26C6 27.1046 6.89543 28 8 28H24C25.1046 28 26 27.1046 26 26V16C26 14.8954 25.1046 14 24 14H22V10C22 6.68629 19.3137 4 16 4ZM20 14H12V10C12 7.79086 13.7909 6 16 6C18.2091 6 20 7.79086 20 10V14Z" fill="var(--primary)"></path>
+            <circle cx="16" cy="21" r="2" fill="var(--primary)"></circle>
+            <path d="M16 23V25" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">הגברה מקצועית</h3>
@@ -883,13 +883,13 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="16" r="10" stroke="var(--primary)" stroke-width="2"/>
-            <circle cx="16" cy="16" r="5" stroke="var(--primary)" stroke-width="2"/>
-            <circle cx="16" cy="16" r="1" fill="var(--primary)"/>
-            <path d="M16 6V4" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M16 28V30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M6 16H4" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M28 16H30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="10" stroke="var(--primary)" stroke-width="2"></circle>
+            <circle cx="16" cy="16" r="5" stroke="var(--primary)" stroke-width="2"></circle>
+            <circle cx="16" cy="16" r="1" fill="var(--primary)"></circle>
+            <path d="M16 6V4" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M16 28V30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M6 16H4" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M28 16H30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">סאבוופר וסאונד לרחבת ריקודים</h3>
@@ -898,9 +898,9 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 2L20 10H28L22 15L24 23L16 18L8 23L10 15L4 10H12L16 2Z" fill="var(--primary)"/>
-            <path d="M16 18V30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M12 28H20" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16 2L20 10H28L22 15L24 23L16 18L8 23L10 15L4 10H12L16 2Z" fill="var(--primary)"></path>
+            <path d="M16 18V30" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M12 28H20" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">תאורה לאירועים</h3>
@@ -909,13 +909,13 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="4" y="8" width="24" height="16" rx="2" stroke="var(--primary)" stroke-width="2"/>
-            <path d="M12 24V28" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M20 24V28" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M8 28H24" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="16" cy="14" r="2" fill="var(--primary)"/>
-            <path d="M10 18L14 14" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M22 18L18 14" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="4" y="8" width="24" height="16" rx="2" stroke="var(--primary)" stroke-width="2"></rect>
+            <path d="M12 24V28" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M20 24V28" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M8 28H24" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="16" cy="14" r="2" fill="var(--primary)"></circle>
+            <path d="M10 18L14 14" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M22 18L18 14" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">תאורה אווירתית ודקורטיבית</h3>
@@ -924,10 +924,10 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="16" r="12" stroke="var(--primary)" stroke-width="2"/>
-            <path d="M16 8V16L21 20" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8 16H10" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
-            <path d="M22 16H24" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="12" stroke="var(--primary)" stroke-width="2"></circle>
+            <path d="M16 8V16L21 20" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8 16H10" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M22 16H24" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">הקמה ותפעול טכני</h3>
@@ -936,11 +936,11 @@
       <article class="services-service-menu-card">
         <div class="services-service-menu-card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14 6C14 4.89543 14.8954 4 16 4C17.1046 4 18 4.89543 18 6V8H14V6Z" fill="var(--primary)"/>
-            <rect x="6" y="8" width="20" height="18" rx="2" stroke="var(--primary)" stroke-width="2"/>
-            <path d="M12 14L14 16L12 18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M20 14L18 16L20 18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16 14V18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M14 6C14 4.89543 14.8954 4 16 4C17.1046 4 18 4.89543 18 6V8H14V6Z" fill="var(--primary)"></path>
+            <rect x="6" y="8" width="20" height="18" rx="2" stroke="var(--primary)" stroke-width="2"></rect>
+            <path d="M12 14L14 16L12 18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20 14L18 16L20 18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16 14V18" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-service-menu-card-title">התאמה אישית לפי גודל האירוע</h3>
@@ -950,7 +950,7 @@
   </div>
   <div class="services-service-menu-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q50,25 100,40 T200,30 Q250,45 300,35 T400,42 Q450,28 500,38 T600,32 Q650,45 700,35 T800,40 Q850,30 900,38 T1000,33 Q1050,45 1100,36 T1200,42 L1200,80 Z" fill="var(--bg-dark)"/>
+      <path d="M0,80 L0,45 Q50,25 100,40 T200,30 Q250,45 300,35 T400,42 Q450,28 500,38 T600,32 Q650,45 700,35 T800,40 Q850,30 900,38 T1000,33 Q1050,45 1100,36 T1200,42 L1200,80 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 </section>
@@ -1004,7 +1004,7 @@
   <!-- Bottom divider: rounded dark espresso arc that recedes into a light background -->
   <div class="services-equipment-showcase-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,100 L0,45 Q150,15 300,35 Q450,55 600,30 Q750,5 900,25 Q1050,45 1200,35 L1200,100 Z" fill="#FAF5EE"/>
+      <path d="M0,100 L0,45 Q150,15 300,35 Q450,55 600,30 Q750,5 900,25 Q1050,45 1200,35 L1200,100 Z" fill="#FAF5EE"></path>
     </svg>
   </div>
 </section>
@@ -1021,11 +1021,11 @@
       <div class="event-card">
         <div class="card-icon-wrapper">
           <svg class="card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"/>
-            <path d="M16 24C16 24 20 18 24 18C28 18 32 24 32 24C32 24 28 30 24 30C20 30 16 24 16 24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="24" cy="24" r="3" fill="currentColor"/>
-            <path d="M24 14V10M24 38V34M10 24H14M34 24H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M16.5 16.5L13.5 13.5M34.5 34.5L31.5 31.5M31.5 16.5L34.5 13.5M16.5 31.5L13.5 34.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"></circle>
+            <path d="M16 24C16 24 20 18 24 18C28 18 32 24 32 24C32 24 28 30 24 30C20 30 16 24 16 24Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="24" cy="24" r="3" fill="currentColor"></circle>
+            <path d="M24 14V10M24 38V34M10 24H14M34 24H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M16.5 16.5L13.5 13.5M34.5 34.5L31.5 31.5M31.5 16.5L34.5 13.5M16.5 31.5L13.5 34.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="card-title">מסיבות פרטיות</h3>
@@ -1041,13 +1041,13 @@
       <div class="event-card">
         <div class="card-icon-wrapper">
           <svg class="card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"/>
-            <path d="M18 28C18 28 20 24 24 24C28 24 30 28 30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="20" cy="20" r="2" fill="currentColor"/>
-            <circle cx="28" cy="20" r="2" fill="currentColor"/>
-            <path d="M16 32C16 32 20 36 24 36C28 36 32 32 32 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M12 18L8 14M36 18L40 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M22 12V8M26 12V8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"></circle>
+            <path d="M18 28C18 28 20 24 24 24C28 24 30 28 30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="20" cy="20" r="2" fill="currentColor"></circle>
+            <circle cx="28" cy="20" r="2" fill="currentColor"></circle>
+            <path d="M16 32C16 32 20 36 24 36C28 36 32 32 32 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M12 18L8 14M36 18L40 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M22 12V8M26 12V8" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="card-title">חגיגות משפחתיות</h3>
@@ -1063,12 +1063,12 @@
       <div class="event-card">
         <div class="card-icon-wrapper">
           <svg class="card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"/>
-            <rect x="14" y="16" width="20" height="18" rx="2" stroke="currentColor" stroke-width="2"/>
-            <path d="M18 16V12C18 10.8954 18.8954 10 20 10H28C29.1046 10 30 10.8954 30 12V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M14 22H34" stroke="currentColor" stroke-width="2"/>
-            <circle cx="24" cy="28" r="2" fill="currentColor"/>
-            <path d="M22 28H18M30 28H26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"></circle>
+            <rect x="14" y="16" width="20" height="18" rx="2" stroke="currentColor" stroke-width="2"></rect>
+            <path d="M18 16V12C18 10.8954 18.8954 10 20 10H28C29.1046 10 30 10.8954 30 12V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M14 22H34" stroke="currentColor" stroke-width="2"></path>
+            <circle cx="24" cy="28" r="2" fill="currentColor"></circle>
+            <path d="M22 28H18M30 28H26" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="card-title">אירועים עסקיים והשקות</h3>
@@ -1084,11 +1084,11 @@
       <div class="event-card">
         <div class="card-icon-wrapper">
           <svg class="card-icon" data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"/>
-            <path d="M24 10V14M24 34V38M10 24H14M34 24H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"/>
-            <circle cx="24" cy="24" r="4" fill="currentColor"/>
-            <path d="M28 20L32 16M20 28L16 32M20 20L16 16M28 28L32 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="20" fill="var(--primary)" opacity="0.1"></circle>
+            <path d="M24 10V14M24 34V38M10 24H14M34 24H38" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="24" cy="24" r="4" fill="currentColor"></circle>
+            <path d="M28 20L32 16M20 28L16 32M20 20L16 16M28 28L32 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="card-title">הפקות מותאמות אישית</h3>
@@ -1105,8 +1105,8 @@
   <!-- Bottom Divider: Terracotta Dotted Rhythm Line -->
   <div class="services-event-types-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,45 Q50,30 100,48 T200,42 Q250,38 300,50 T400,44 Q450,36 500,48 T600,40 Q650,46 700,42 T800,50 Q850,38 900,46 T1000,40 Q1050,48 1100,42 T1200,45 L1200,80 Z" fill="#1A1008"/>
-      <path d="M0,58 Q50,43 100,61 T200,55 Q250,51 300,63 T400,57 Q450,49 500,61 T600,53 Q650,59 700,55 T800,63 Q850,51 900,59 T1000,53 Q1050,61 1100,55 T1200,58" fill="#1A1008" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.6"/>
+      <path d="M0,80 L0,45 Q50,30 100,48 T200,42 Q250,38 300,50 T400,44 Q450,36 500,48 T600,40 Q650,46 700,42 T800,50 Q850,38 900,46 T1000,40 Q1050,48 1100,42 T1200,45 L1200,80 Z" fill="#1A1008"></path>
+      <path d="M0,58 Q50,43 100,61 T200,55 Q250,51 300,63 T400,57 Q450,49 500,61 T600,53 Q650,59 700,55 T800,63 Q850,51 900,59 T1000,53 Q1050,61 1100,55 T1200,58" fill="#1A1008" stroke="var(--primary)" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.6"></path>
     </svg>
   </div>
 </section>
@@ -1150,25 +1150,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:talhasson6@gmail.com">talhasson6@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972546885039">+972546885039</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%91%D7%9B%D7%9C%20%D7%9E%D7%A7%D7%95%D7%9D%20%D7%A9%D7%A8%D7%A7%20%D7%AA%D7%A8%D7%A6%D7%95" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">בכל מקום שרק תרצו</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1197,7 +1195,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972546885039" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

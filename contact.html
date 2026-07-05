@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972546885039" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -818,7 +818,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972546885039';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -840,7 +840,7 @@
     <!-- Decorative top accent -->
     <div class="contact-contact-intro-accent-wrapper">
       <svg data-no-icon-edit="true" aria-hidden="true" class="contact-contact-intro-accent-svg" viewBox="0 0 120 12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0,6 Q15,2 30,6 T60,6 T90,6 T120,6" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"/>
+        <path d="M0,6 Q15,2 30,6 T60,6 T90,6 T120,6" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round"></path>
       </svg>
     </div>
 
@@ -857,7 +857,7 @@
   <!-- Bottom wave divider -->
   <div class="contact-contact-intro-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,50 Q50,35 100,48 T200,45 Q250,52 300,42 T400,50 Q450,44 500,48 T600,42 Q650,50 700,44 T800,48 Q850,42 900,50 T1000,44 Q1050,50 1100,46 T1200,50 L1200,80 Z" fill="var(--bg-light)"/>
+      <path d="M0,80 L0,50 Q50,35 100,48 T200,45 Q250,52 300,42 T400,50 Q450,44 500,48 T600,42 Q650,50 700,44 T800,48 Q850,42 900,50 T1000,44 Q1050,50 1100,46 T1200,50 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -871,18 +871,18 @@
       
       <div class="contact-contact-details-section__card" data-zappy-contact-field="phone">
         <div class="contact-contact-details-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         </div>
         <div class="contact-contact-details-section__card-content">
           <h3 class="contact-contact-details-section__card-title">טלפון</h3>
-          <a href="tel:[business_phone]" class="contact-contact-details-section__card-link">[business_phone]</a>
+          <a href="tel:+972546885039" class="contact-contact-details-section__card-link">+972546885039</a>
           <span class="contact-contact-details-section__card-note">מענה בימים א'-ה' 09:00-20:00</span>
         </div>
       </div>
 
       <div class="contact-contact-details-section__card">
         <div class="contact-contact-details-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
         </div>
         <div class="contact-contact-details-section__card-content">
           <h3 class="contact-contact-details-section__card-title">אימייל</h3>
@@ -893,7 +893,7 @@
 
       <div class="contact-contact-details-section__card">
         <div class="contact-contact-details-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
         </div>
         <div class="contact-contact-details-section__card-content">
           <h3 class="contact-contact-details-section__card-title">אזור שירות</h3>
@@ -904,7 +904,7 @@
 
       <div class="contact-contact-details-section__card">
         <div class="contact-contact-details-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
         </div>
         <div class="contact-contact-details-section__card-content">
           <h3 class="contact-contact-details-section__card-title">זמן תגובה</h3>
@@ -935,24 +935,24 @@
         <div class="contact-form__fields">
           <div class="contact-form__field">
             <label for="name" class="contact-form__label">שם מלא</label>
-            <input type="text" id="name" name="name" class="contact-form__input" placeholder="ישראל ישראלי" required>
+            <input type="text" id="name" name="name" class="contact-form__input" placeholder="ישראל ישראלי" required="">
           </div>
           <div class="contact-form__field">
             <label for="email" class="contact-form__label">אימייל</label>
-            <input type="email" id="email" name="email" class="contact-form__input" placeholder="israel@example.com" required>
+            <input type="email" id="email" name="email" class="contact-form__input" placeholder="israel@example.com" required="">
           </div>
           <div class="contact-form__field">
             <label for="phone" class="contact-form__label">טלפון</label>
-            <input type="tel" id="phone" name="phone" class="contact-form__input" placeholder="050-1234567" required>
+            <input type="tel" id="phone" name="phone" class="contact-form__input" placeholder="050-1234567" required="">
           </div>
           <div class="contact-form__field contact-form__field--full">
             <label for="message" class="contact-form__label">פרטי האירוע</label>
-            <textarea id="message" name="message" class="contact-form__textarea" rows="5" placeholder="ספרו לנו על תאריך האירוע, מיקום, מספר אורחים משוער, והאם אתם זקוקים להגברה, תאורה או שניהם..." required></textarea>
+            <textarea id="message" name="message" class="contact-form__textarea" rows="5" placeholder="ספרו לנו על תאריך האירוע, מיקום, מספר אורחים משוער, והאם אתם זקוקים להגברה, תאורה או שניהם..." required=""></textarea>
           </div>
         </div>
         <div class="privacy-consent">
           <label class="privacy-consent-label">
-            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required>
+            <input type="checkbox" name="privacy_consent" class="privacy-consent-checkbox" required="">
             <span>קראתי ואני מסכים/ה ל<a href="/terms" target="_blank">תנאי השימוש</a> ול<a href="/privacy" target="_blank">מדיניות הפרטיות</a></span>
           </label>
         </div>
@@ -990,25 +990,23 @@
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:talhasson6@gmail.com">talhasson6@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972546885039">+972546885039</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%91%D7%9B%D7%9C%20%D7%9E%D7%A7%D7%95%D7%9D%20%D7%A9%D7%A8%D7%A7%20%D7%AA%D7%A8%D7%A6%D7%95" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">בכל מקום שרק תרצו</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1037,7 +1035,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/+972546885039" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
