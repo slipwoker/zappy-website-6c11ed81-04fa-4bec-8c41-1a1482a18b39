@@ -10,10 +10,6 @@
 https://dtspeakers.zappy5.app
 הופכים כל אירוע לחוויה בלתי נשכחת עם ציוד הגברה ותאורה מתקדם. מתמחים באווירה סוחפת ואנרגיה גבוהה למסיבות פרטיות ואירועים עסקיים. צרו קשר עוד היום!
 
-### שירותים
-https://dtspeakers.zappy5.app/services
-מערכות הגברה עוצמתיות, תאורה חכמה ואפקטים ויזואליים מרהיבים – כל מה שצריך כדי להפוך את המסיבה שלכם לחוויה סוחפת. גלו את חבילות השירות המותאמות אישית שלנו.
-
 ### אודות
 https://dtspeakers.zappy5.app/about
 צוות DTSpeakers מביא ניסיון עשיר ותשוקה אמיתית להפקת אירועים. אנחנו משלבים טכנולוגיה מתקדמת עם יצירתיות כדי לייצר אווירה מושלמת. הכירו את האנשים שמאחורי הקלעים.
@@ -62,7 +58,7 @@ Information about WCAG compliance and accessibility features.
   - `name` (text, required)
   - `email` (email, required)
   - `phone` (tel, required)
-  - `message` (textarea, required)
+  - `message` (textarea)
   - `privacy_consent` (checkbox, required)
 
 ---
