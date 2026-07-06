@@ -14,10 +14,6 @@ https://dtspeakers.zappy5.app
 https://dtspeakers.zappy5.app/about
 צוות DTSpeakers מביא ניסיון עשיר ותשוקה אמיתית להפקת אירועים. אנחנו משלבים טכנולוגיה מתקדמת עם יצירתיות כדי לייצר אווירה מושלמת. הכירו את האנשים שמאחורי הקלעים.
 
-### גלריה
-https://dtspeakers.zappy5.app/gallery
-גללו בין רגעי השיא של אירועים שהפקנו – תאורה דרמטית, סאונד מושלם ורחבת ריקודים סוערת. קבלו השראה לאירוע שלכם ותראו איך אנחנו הופכים חלומות למציאות.
-
 ### צור קשר
 https://dtspeakers.zappy5.app/contact
 מוכנים להפוך את האירוע שלכם לבלתי נשכח? השאירו פרטים ונחזור אליכם עם הצעת מחיר מותאמת אישית לצרכי ההגברה והתאורה שלכם. ההפקה המושלמת מתחילה כאן.
@@ -58,7 +54,7 @@ Information about WCAG compliance and accessibility features.
   - `name` (text, required)
   - `email` (email, required)
   - `phone` (tel, required)
-  - `message` (textarea, required)
+  - `message` (textarea)
   - `privacy_consent` (checkbox, required)
 
 ---
